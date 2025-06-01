@@ -14,29 +14,30 @@ All data in the database will be permanently deleted.
 Proceed with caution and ensure you have proper backups before running this script.
 */
 
--- Disconnect users from the database if it exists (syntax might vary)
--- For PostgreSQL, you might need to run this from a different database (e.g., 'postgres')
--- or have specific connection settings that allow dropping an in-use database.
--- For MySQL, you might not need an explicit disconnect for dropping
-
-
 USE master;
+GO
 
 -- Drop and recreate 'DataWarehouse' database
-if Exists (SELECT 1 FROM sys.databases WHERE name* 'DataWarehouse'
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
-  ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMEDIATE;
-  DROP DATABASE DataWarehouse;
+    ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE DataWarehouse;
 END;
 GO
 
-create database DataWarehouse;
+CREATE DATABASE DataWarehouse;
 GO
-use DataWarehouse;
+
+USE DataWarehouse;
 GO
+
+-- Create schemas
 CREATE SCHEMA bronze;
 GO
 
 CREATE SCHEMA silver;
 GO
+
 CREATE SCHEMA gold;
+GO
+
