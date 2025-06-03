@@ -1,3 +1,18 @@
+/* 
+=======================================================================================
+DDL: Server Silver Layer Table Creation
+==========================================================================================
+PURPOSE:
+The purpose of this SQL script is to establish the foundational data structures for a "silver" layer 
+in a data warehouse or data mart. This layer is typically used to store cleaned, conformed, and integrated 
+data from various source systems (like CRM and ERP) before it's transformed further into a "gold" or 
+presentation layer.
+=================================================
+-- This script demonstrates basic SQL commands for database interaction.
+-- It includes creating a table, inserting data, querying data,
+-- updating existing data, and deleting data.
+*/
+
 -- Create schema if not exists
 IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'silver')
 EXEC('CREATE SCHEMA silver');
