@@ -26,6 +26,7 @@ This project builds
 - **Draw.io / dbdiagram.io** (for ERD and architecture)
 - **Excel / CSV** (input data)
 - **Power BI / Tableau (optional)** for visualizations
+- **Notion** for project management and organization.
 
 ---
 
