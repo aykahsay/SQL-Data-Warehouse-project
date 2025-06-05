@@ -5,7 +5,10 @@ A complete end-to-end project to design, build, and utilize a modern **data ware
 ---
 
 ## 🧠 Project Overview
-This project builds a **SQL-based data warehouse** that consolidates data from multiple systems (ERP and CRM), cleans and transforms it, and enables meaningful analytics using **SQL queries and visualizations**.
+This project builds 
+- **Data Architecture  Designing**: Designging a modern datahouse and analytics using medalion Architecture Bronze,Silver, and Gold layers.
+- **ETL pipeline** : Extracting, Transforming, and Loading data from source systems (ERP and CRM) in to the warehouse.
+- **Data Modelling**: Developing fact and dimension tables optimized for analytical queries, and enables meaningful analytics using **SQL queries and visualizations**.
 
 ---
 
