@@ -53,6 +53,7 @@ This project fellows Medalion Architecture **Bronze,Silver,and Gold** layer.
 - **Load**:
   - Load data into **staging tables**
   - Insert into **fact and dimension tables**
+<img width="1256" height="752" alt="image" src="https://github.com/user-attachments/assets/b931be1b-4e02-4300-a2d0-8f218194134c" />
 
 ---
 
