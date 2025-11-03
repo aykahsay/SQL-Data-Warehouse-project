@@ -9,6 +9,7 @@ This project builds
 - **Data Architecture  Designing**: Designging a modern datahouse and analytics using medalion Architecture Bronze,Silver, and Gold layers.
 - **ETL pipeline** : Extracting, Transforming, and Loading data from source systems (ERP and CRM) in to the warehouse.
 - **Data Modelling**: Developing fact and dimension tables optimized for analytical queries, and enables meaningful analytics using **SQL queries and visualizations**.
+<img width="883" height="769" alt="image" src="https://github.com/user-attachments/assets/f06ccd68-6fb2-4595-986e-2df83319b22e" />
 
 ---
 
