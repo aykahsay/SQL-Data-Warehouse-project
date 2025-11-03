@@ -63,6 +63,7 @@ This project fellows Medalion Architecture **Bronze,Silver,and Gold** layer.
   - `DimProduct`
   - `DimDate`
 - Relationships defined by foreign keys
+<img width="1252" height="775" alt="image" src="https://github.com/user-attachments/assets/f49be9ff-b1c5-4f3a-9363-9ea695070ca8" />
 
 ---
 
